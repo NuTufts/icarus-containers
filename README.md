@@ -13,6 +13,12 @@ Example:
 docker run -it -v /cvmfs:/cvmfs nutufts/sl7_base
 ```
 
+To convert the docker image into a singularity image, run the following command:
+
+```
+singularity build sl7_base.simg  docker-daemon://nutufts/sl7_base:latest
+```
+
 Last tested status (5/5/2022): could run `lar -c eventdump.fcl -s [larsoft file] -n 1` and get the expected output.
 
 ## `sl7_build`
