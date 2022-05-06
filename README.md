@@ -1,6 +1,12 @@
 # icarus-containers
 Recipes for working with ICARUS code in containers, for laptops and clusters
 
+NOTE: there is already an official SL7 environment container for running on the grid. Nice.
+
+```
+/cvmfs/singularity.opensciencegrid.org/fermilab/fnal-wn-sl7:latest
+```
+
 ## `sl7_base`
 
 This recipe is for making a SL7 container with the minimal number of packags to setup `icaruscode` through cvmfs.
